@@ -7,7 +7,8 @@ const rootGraphQlObjectType = new GraphQLObjectType({
     fields: {
         message: {
             type: GraphQLString,
-            resolve: () => 'Hello World'
+            resolve: () => 'Hello World',
+            description: 'Hello World *GraphQL* style'
         }
     }
 });
