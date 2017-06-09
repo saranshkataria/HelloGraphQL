@@ -1,6 +1,5 @@
 const app = require('express')(),
       schema = require('./schema'),
-      graphql = require('graphql'),
       expressGraphql = require('express-graphql');
 
 app.use('/graphql', expressGraphql({

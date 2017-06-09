@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
-    "express-graphql": "^0.6.6",
-    "graphql": "^0.10.1"
+    "express-graphql": "^0.6.6"
   }
 }
